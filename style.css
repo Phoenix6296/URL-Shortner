@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+body>input {
+    padding: 1rem;
+    width: 50%;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+body>button {
+    background-color: aquamarine;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+body>button:hover {
+    background-color: rgb(68, 247, 187);
+    transition: 0.3s;
+}
