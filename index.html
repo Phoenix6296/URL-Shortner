@@ -3,11 +3,23 @@
 <head>
     <title>Simple URL Shortener</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Montserrat:wght@200&family=Raleway&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <input type="url" id="urlinput">
-    <button onclick="shorturl()">Short The URL</button>
+    <img src="banner.jpeg" alt="">
+    <section class="container">
+        <h1>URL SHORTNER</h1>
+        <div class="content">
+            <input type="url" id="urlinput">
+            <button onclick="shorturl()">Click to Shorten the URL</button>
+        </div>
+    </section>
+    <h2 id="short-url"></h2>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
